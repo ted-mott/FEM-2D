@@ -30,7 +30,7 @@ numRows, numColumns = 100,100
 
 
 
-def main(noOfIterations):
+def main():
     for i in range (0,noOfIterations):
         print(i)
 
@@ -38,9 +38,5 @@ def FEMsolver():
     pass
 
 if __name__ == "__main__":
+    main()
     
-    #number of iterations for optimisation
-    #noOfIterations = 100
-    #
-
-    main(noOfIterations, numRows, numColumns, )
